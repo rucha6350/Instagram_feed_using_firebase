@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "269561481103",
+    "firebase_url": "https://sasta-insta.firebaseio.com",
+    "project_id": "sasta-insta",
+    "storage_bucket": "sasta-insta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269561481103:android:4db62e2e3c5b7021",
+        "android_client_info": {
+          "package_name": "com.rucha.sastainstagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269561481103-9osn5mgsude8kmfrvp6ssda0ol542ohe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rucha.sastainstagram",
+            "certificate_hash": "261496c630ae81ded092c617337c4910df28dc6b"
+          }
+        },
+        {
+          "client_id": "269561481103-a10tlnon65fj61jiajhp0stt9eq6419n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwKF9QaOCRNJq3PcysLCgTYgN-qzTWkvM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269561481103-a10tlnon65fj61jiajhp0stt9eq6419n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

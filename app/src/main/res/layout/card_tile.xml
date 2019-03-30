@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:id="@+id/profilepic"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#2B2929"
+            android:src="@drawable/dummyfeed"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/profilepic">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rucha"
+                android:id="@+id/username"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bhandup, Mumbai"
+                android:layout_below="@+id/username"
+                android:textColor="#000"
+                android:textSize="18sp"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/overflow"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dummyfeed"
+        android:id="@+id/feedimage"
+        android:adjustViewBounds="true"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/like"
+            android:id="@+id/like"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/comment"
+            android:src="@drawable/comment"
+            android:padding="5dp"
+            android:layout_toRightOf="@+id/like"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_toRightOf="@id/comment"
+            android:layout_height="40dp"
+            android:padding="2dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/send"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="2dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/save"
+            android:layout_alignParentEnd="true"
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
